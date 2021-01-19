@@ -52,7 +52,7 @@ CREATE TABLE `animal` (
   `Ege` int NOT NULL,
   `NumberLegs` int NOT NULL,
   PRIMARY KEY (`Id`)
-) ENGINE=InnoDB AUTO_INCREMENT=82 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=87 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -61,7 +61,7 @@ CREATE TABLE `animal` (
 
 LOCK TABLES `animal` WRITE;
 /*!40000 ALTER TABLE `animal` DISABLE KEYS */;
-INSERT INTO `animal` VALUES (1,'dsf',22,2),(76,'Animal 1',22,4),(77,'el loco',20,4),(78,'Animal 12 ',120,3),(79,'Danner',35,2),(80,'Cabayo',20,4),(81,'Cabayo',20,4);
+INSERT INTO `animal` VALUES (1,'dsf',22,2),(76,'Animal 1',22,4),(77,'el loro',20,4),(78,'Animal 12 ',120,3),(79,'Danner',35,2),(80,'Caballo1',20,4),(81,'Caballo2',20,4),(82,'Caballo3',20,4),(83,'Caballo4',20,4),(84,'Caballo5',20,4),(85,'Caballo6',20,4),(86,'Caballo7',20,4);
 /*!40000 ALTER TABLE `animal` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -272,4 +272,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-01-18 16:01:23
+-- Dump completed on 2021-01-18 23:57:17
